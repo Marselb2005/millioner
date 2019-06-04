@@ -1,0 +1,65 @@
+.main{
+	width: 1000px;
+	box-sizing: border-box;
+	background: black;
+}
+.block-one{
+	background: red;
+	display: flex;
+	height: 400px;
+}
+.help{
+	background: orange;
+	height: 80px	;
+	width: 400px;
+	display: flex;
+}
+.prompt{
+	background: yellow;
+	width: 80px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.result{
+	background: green;
+	height: 360px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 150px;
+
+}
+.money{
+	background: cyan;
+	height: 14px;
+	margin-bottom: 10px;
+}
+.block-two{
+	margin-top:30px;
+	height: 35%;
+	background: blue;
+}
+.question{
+	background: purple;
+	height: 100px;
+}
+.answer{
+	background: pink;
+	height: 150px;
+	display: block;
+}
+.variant{
+	height: 50px;
+	width: 250px;
+	background: grey;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.flex{
+	display: flex;
+
+}
+h2{
+	color: white;
+
+}

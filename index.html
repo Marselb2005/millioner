@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="block-one">
+			<div class="help">
+				<div class="prompt">50:50</div>
+				<div class="prompt">Помощь Зала</div>
+				<div class="prompt">Звонок другу</div>
+			</div>
+			<div class="img">
+	
+			</div>
+			<div class="result">
+				<div class="money">15:3 000 000</div>
+				<div class="money">14:1 500 000</div>
+				<div class="money">13:800 000</div>
+				<div class="money">12:400 000</div>
+				<div class="money">11:200 000</div>
+				<div class="money">10:100 000</div>
+				<div class="money">9:50 000</div>
+				<div class="money">8:25 000</div>
+				<div class="money">7:15 000</div>
+				<div class="money">6:10 000</div>
+				<div class="money">5:5000</div>
+				<div class="money">4:3000</div>
+				<div class="money">3:2000</div>
+				<div class="money">2:1000</div>
+				<div class="money">1:500</div>
+			</div>
+	</div>
+	<div class="block-two">
+			<div class="question">
+				<h2>Как правильно закончить пословицу: "Не откладывай на завтра то, что можно..."?</h2>
+			</div>
+			<div class="answer">
+				<button class="variant wrong">a) сделать послезавтра</button>
+				<button class="variant right">b) сделать сегодня</button>
+			</div>
+			<div class="answer">
+				<button class="variant wrong">c) сделать через месяц</button>
+				<button class="variant wrong">d) никогда не делать</button>
+			</div>			
+	</div>
+
+	<div class="block-three">
+			<div class="question">
+				<h2>Когда началась революция в России ?</h2>
+			</div>
+			<div class="answer">
+				<button class="variant wrong">a) в 1916 </button>
+				<button class="variant wrong">b) в 1923 </button>
+			</div>
+			<div class="answer">
+				<button class="variant rightTwo">c) в 1917 </button>
+				<button class="variant wrong">d) в 1918 </button>
+			</div>	
+	</div>
+	<script type="text/javascript">
+			let right = document.querySelector('.right');
+			let blockTwo = document.querySelector('.block-two');
+			let rightTwo = document.querySelector('.rightTwo');
+			let blockThree = document.querySelector('.block-three');
+
+			right.onclick = function() 
+			{
+			blockTwo.style.display = 'none';
+			blockTree.style.display = 'block';
+			}
+			rightTwo.onclick = function() 
+			{
+			blockThree.style.display = 'none';
+			}
+
+	</script>
+</body>
+</html>
